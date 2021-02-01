@@ -3,7 +3,7 @@ var hoursEl = document.getElementById("hours");
 var minsEl = document.getElementById("mins");
 var secondsEl = document.getElementById("seconds");
 
-var newYears = "2 Feb 2021";
+var newYears = prompt("Enter Date Like 01 Feb 2021");
 
 function countdown() {
     var newYearsDate = new Date(newYears);
